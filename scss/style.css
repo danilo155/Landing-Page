@@ -1,0 +1,225 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #201b2d;
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+div, p, input, button, form, span, a, ul, li {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Montserrat" sans-serif;
+  font-weight: 900;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+
+p {
+  line-height: 1.6em;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.header {
+  padding-top: 68px;
+  background: #4ebdfe;
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, #4ebdfe), color-stop(52%, #378fd9), color-stop(100%, #378fd9));
+  background: linear-gradient(135deg, #4ebdfe 0%, #378fd9 52%, #378fd9 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ebdfe', endColorstr='#378fd9', GradientType=1 );
+  color: #fff;
+  padding-bottom: 150px;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.offer {
+  margin-top: 153px;
+  color: #fff;
+  width: 573px;
+}
+
+.title {
+  font-size: 36px;
+}
+
+.title span {
+  font-weight: 700;
+}
+
+.intro {
+  width: 413px;
+  font-weight: 400;
+}
+
+.btn {
+  color: #fff;
+  text-decoration: none;
+  background: #ffd429;
+  font-family: "Montserrat" sans-serif;
+  display: block;
+  width: 222px;
+  padding: 20px 0;
+  text-align: center;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.btn:hover {
+  background: #ffcc00b6;
+}
+
+.desktop {
+  margin-top: 72px;
+}
+
+.learn {
+  text-align: center;
+  padding-top: 108px;
+  padding-bottom: 120px;
+}
+
+.section-title {
+  font-style: 30px;
+  font-family: 'Montserrat' sans-serif;
+}
+
+.skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.skill {
+  width: 350px;
+}
+
+.skill-title {
+  font-size: 18px;
+}
+
+.skill-text {
+  margin-top: 5;
+}
+
+.mail {
+  background: #ecf2f8;
+  padding-top: 173px;
+  padding-bottom: 190px;
+  text-align: center;
+}
+
+.input {
+  margin-bottom: 15px;
+  border: none;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 62px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+form button {
+  margin: 0 auto;
+  margin-top: 14px;
+  border: none;
+  cursor: pointer;
+}
+
+.footer {
+  text-align: center;
+  background: #164d7a;
+  padding: 65px 0;
+  color: #fff;
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 960px;
+  }
+  .wrapper img {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    width: 720px;
+  }
+  .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .wrapper img {
+    width: 549px;
+    display: block;
+    margin: 72px auto 0;
+  }
+  .offer {
+    width: 100%;
+  }
+  .offer .btn {
+    width: 50%;
+  }
+  .intro {
+    width: 100%;
+  }
+  .skills {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .skills .skill {
+    width: auto;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 540px;
+  }
+  .desktop {
+    width: 100%;
+  }
+  .input {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    width: 90%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
